@@ -1,3 +1,5 @@
+require 'redmine_better_journal'
+
 Redmine::Plugin.register :redmine_better_journal do
   name        'Redmine Better Journal plugin'
   author      '//Twinslash'
