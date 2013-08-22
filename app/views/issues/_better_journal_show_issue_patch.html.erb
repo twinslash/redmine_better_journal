@@ -1,0 +1,12 @@
+<%# TODO: check rights to see time entry! %>
+<% if time_entry = journal.time_entry %>
+  <div class='journal-time-entry'>
+    <span class='journal-time-entry-hours'>
+      <%= l_hours(time_entry.hours) %>
+    </span>
+    -
+    <span class='journal-time-entry-comments'>
+      <%= time_entry.comments %>
+    </span>
+  </div>
+<% end %>
